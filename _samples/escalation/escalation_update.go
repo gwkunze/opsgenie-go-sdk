@@ -3,9 +3,9 @@ package main
 import (
 "fmt"
 
-ogcli "github.com/opsgenie/opsgenie-go-sdk/client"
-esc "github.com/opsgenie/opsgenie-go-sdk/escalation"
-"github.com/opsgenie/opsgenie-go-sdk/_samples/constants"
+ogcli "github.com/gwkunze/opsgenie-go-sdk/client"
+esc "github.com/gwkunze/opsgenie-go-sdk/escalation"
+"github.com/gwkunze/opsgenie-go-sdk/_samples/constants"
 )
 
 func main() {

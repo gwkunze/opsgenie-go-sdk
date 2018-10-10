@@ -7,7 +7,7 @@ OpsGenie Go SDK covers *the Alert API*, *the Heartbeat API*,
 *the Integration API* and *the Policy API*. Future releases
 are subject to be delivered for packing more APIs soon.
 
-**Documentation:** [![](https://godoc.org/github.com/nathany/looper?status.svg)](http://godoc.org/github.com/opsgenie/opsgenie-go-sdk/client)
+**Documentation:** [![](https://godoc.org/github.com/nathany/looper?status.svg)](http://godoc.org/github.com/gwkunze/opsgenie-go-sdk/client)
 
 For more information about OpsGenie Go SDK, please refer to [OpsGenie Go API](https://www.opsgenie.com/docs/api-and-client-libraries/opsgenie-go-api) document.
 
@@ -25,7 +25,7 @@ don't have a valid account yet. Create an API Integration and get your API key.
 ## Installation
 To download all packages in the repo with their dependencies, simply run
 
-`go get github.com/opsgenie/opsgenie-go-sdk/...`
+`go get github.com/gwkunze/opsgenie-go-sdk/...`
 
 ## Getting Started
 One can start using OpsGenie Go SDK by initializing client and making a request. Example shown below demonstrates how to initialize an OpsGenie Alert client and make a create alert request.
@@ -33,10 +33,10 @@ One can start using OpsGenie Go SDK by initializing client and making a request.
 package main
 
 import (
-	"github.com/opsgenie/opsgenie-go-sdk/alertsv2"
+	"github.com/gwkunze/opsgenie-go-sdk/alertsv2"
 	"fmt"
-	"github.com/opsgenie/opsgenie-go-sdk/_samples/constants"
-	ogcli "github.com/opsgenie/opsgenie-go-sdk/client"
+	"github.com/gwkunze/opsgenie-go-sdk/_samples/constants"
+	ogcli "github.com/gwkunze/opsgenie-go-sdk/client"
 )
 
 func main() {

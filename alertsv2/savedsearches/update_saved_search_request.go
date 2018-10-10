@@ -2,7 +2,7 @@ package savedsearches
 
 import (
 	"errors"
-	"github.com/opsgenie/opsgenie-go-sdk/alertsv2"
+	"github.com/gwkunze/opsgenie-go-sdk/alertsv2"
 	"net/url"
 )
 

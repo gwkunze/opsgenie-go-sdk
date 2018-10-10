@@ -15,8 +15,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/opsgenie/opsgenie-go-sdk/alerts"
-	"github.com/opsgenie/opsgenie-go-sdk/logging"
+	"github.com/gwkunze/opsgenie-go-sdk/alerts"
+	"github.com/gwkunze/opsgenie-go-sdk/logging"
 )
 
 const (

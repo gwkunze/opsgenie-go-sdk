@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/opsgenie/opsgenie-go-sdk/logging"
-	"github.com/opsgenie/opsgenie-go-sdk/scheduleoverride"
+	"github.com/gwkunze/opsgenie-go-sdk/logging"
+	"github.com/gwkunze/opsgenie-go-sdk/scheduleoverride"
 )
 
 const (

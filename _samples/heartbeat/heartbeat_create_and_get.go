@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	ogcli "github.com/opsgenie/opsgenie-go-sdk/client"
-	hb "github.com/opsgenie/opsgenie-go-sdk/heartbeat"
-	samples "github.com/opsgenie/opsgenie-go-sdk/_samples"
-	"github.com/opsgenie/opsgenie-go-sdk/_samples/constants"
+	ogcli "github.com/gwkunze/opsgenie-go-sdk/client"
+	hb "github.com/gwkunze/opsgenie-go-sdk/heartbeat"
+	samples "github.com/gwkunze/opsgenie-go-sdk/_samples"
+	"github.com/gwkunze/opsgenie-go-sdk/_samples/constants"
 )
 
 func main() {

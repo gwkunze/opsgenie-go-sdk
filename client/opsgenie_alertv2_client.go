@@ -3,8 +3,8 @@ package client
 import (
 	"errors"
 	"github.com/franela/goreq"
-	"github.com/opsgenie/opsgenie-go-sdk/alertsv2"
-	"github.com/opsgenie/opsgenie-go-sdk/alertsv2/savedsearches"
+	"github.com/gwkunze/opsgenie-go-sdk/alertsv2"
+	"github.com/gwkunze/opsgenie-go-sdk/alertsv2/savedsearches"
 )
 
 // OpsGenieAlertClient is the data type to make Alert API requests.
